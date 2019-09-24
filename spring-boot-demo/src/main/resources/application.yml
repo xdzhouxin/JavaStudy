@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  data:
+    elasticsearch:
+      cluster-name: spring-boot
+      cluster-nodes: 127.0.0.1:9300
+      repositories:
+        enabled: true
